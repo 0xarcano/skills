@@ -1,0 +1,12 @@
+---
+description: Conventions for authoring Agent Skills in this catalog repository
+alwaysApply: true
+---
+
+# Skill catalog conventions
+
+- Put published skills in `skills/<skill-name>/` with a `SKILL.md`. Folder name must match frontmatter `name`.
+- Start new skills from `templates/skill/`; do not invent a different layout.
+- Keep catalog skills out of `.agents/skills/` and `.cursor/skills/` unless intentionally activating them for this workspace. Those roots are for in-repo authoring help only.
+- Write descriptions in third person with WHAT and WHEN. Keep `SKILL.md` concise; use progressive disclosure for long reference material.
+- Optional supporting dirs: `scripts/`, `references/`, `assets/`. Link them one level deep from `SKILL.md`.
