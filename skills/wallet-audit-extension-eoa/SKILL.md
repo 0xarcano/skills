@@ -26,7 +26,7 @@ Authorized security and privacy review of **non-custodial browser-extension EOA/
 
 | Target | Action |
 |--------|--------|
-| Desktop / Electron (e.g. Frame **app**) | Use sibling `wallet-audit-desktop-eoa` when available; do not audit under this skill |
+| Desktop / Electron (e.g. Frame **app**) | Use sibling `wallet-audit-desktop-eoa`; do not audit under this skill |
 | Mobile, hardware, AA/MPC, custodial, chain/protocol-only | Out of scope; say so and stop or use another skill |
 
 **Companion / native bridge:** If the extension talks to a desktop companion, treat the companion as an **untrusted peer**. Record extension-side trust-boundary findings only. Do **not** claim desktop or hardware verification.
@@ -50,7 +50,7 @@ Authorized security and privacy review of **non-custodial browser-extension EOA/
 
 **In-scope:** User asks to audit the Rabby (or Frame extension) source/package under authorization → run the hybrid workflow → produce `# Wallet Audit Report` per the template.
 
-**Out-of-scope desktop:** User asks to audit Frame **desktop** → state this skill covers the extension surface only; point to `wallet-audit-desktop-eoa` when available; do not pretend to complete a desktop audit here.
+**Out-of-scope desktop:** User asks to audit Frame **desktop** → state this skill covers the extension surface only; point to `wallet-audit-desktop-eoa`; do not pretend to complete a desktop audit here.
 
 ## Additional resources
 
